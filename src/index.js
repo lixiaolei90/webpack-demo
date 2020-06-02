@@ -14,3 +14,8 @@ console.log("开始P1")
 p1()
 console.log("开始P2")
 p2()
+var a = ()=>{
+	console.log("woshiES6")
+}
+
+a()
