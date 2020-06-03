@@ -1,6 +1,7 @@
 import _ from 'lodash'
 import p1 from './p1.js'
 import p2 from './p2.js'
+import './style.scss'
 
 function component() {
 	const element = document.createElement('div');
@@ -14,7 +15,7 @@ console.log("开始P1")
 p1()
 console.log("开始P2")
 p2()
-var a = ()=>{
+let a = ()=>{
 	console.log("woshiES6")
 }
 
